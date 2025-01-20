@@ -1,0 +1,15 @@
+
+
+
+
+
+print("Welcome to the Band Name Generator!")
+
+city = input("What city did you grow up in?\n")
+pet = input("What is your pets name?\n")
+length = len(city + pet)
+length_str = str(length)
+# str() allows you to turn a number/integer into a string
+
+print("Your bands name could be " + city + " " + pet + " " + length_str + "!")
+print("That would be awesome!")
